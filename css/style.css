@@ -1,0 +1,36 @@
+.img-hover-zoom {
+    height: auto;
+    overflow: hidden;
+  }
+  
+.img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+.img-hover-zoom:hover img {
+    transform: scale(1.1);
+  }
+
+.logo-image{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: -6px;
+}
+
+
+.grayscale figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+.grayscale figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: #ffffff;
+}
